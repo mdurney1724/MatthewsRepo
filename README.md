@@ -31,7 +31,6 @@ Create a script that loops through all the stocks for one year and outputs the f
 *Make the appropriate adjustments to your VBA script to enable it to run on every worksheet (that is, every year) at once.
 
 # NOTE
-
 Make sure to use conditional formatting that will highlight positive change in green and negative change in red.
 
 # Other Considerations
@@ -42,6 +41,7 @@ Make sure to use conditional formatting that will highlight positive change in g
 # Requirements
 # Retrieval of Data (20 points)
 The script loops through one year of stock data and reads/ stores all of the following values from each row:
+
 *ticker symbol (5 points)
 
 *volume of stock (5 points)
@@ -52,6 +52,7 @@ The script loops through one year of stock data and reads/ stores all of the fol
 
 # Column Creation (10 points)
 On the same worksheet as the raw data, or on a new worksheet all columns were correctly created for:
+
 *ticker symbol (2.5 points)
 
 *total stock volume (2.5 points)
@@ -79,6 +80,9 @@ The VBA script can run on all sheets successfully.
 
 # GitHub/GitLab Submission (15 points)
 All three of the following are uploaded to GitHub/GitLab:
+
 *Screenshots of the results (5 points)
+
 *Separate VBA script files (5 points)
+
 *README file (5 points)
