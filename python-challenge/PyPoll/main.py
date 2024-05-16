@@ -72,3 +72,15 @@ f"Winner:  {Winner}\n"
 # Export output to text file  
 with open(Election_Output, "w") as txt_file: 
     txt_file.write(Output)
+
+# Print output
+# Print output
+print("Election Results\n")
+print("---------------------\n")
+print(f"Total Votes: {Total_Votes}\n")
+print("---------------------\n")
+print(f"{First_Candidate} : {round(First_Candidate_Percentage, ndigits=3)}% ({First_Candidate_Votes})\n")
+print(f"{Second_Candidate} : {round(Second_Candidate_Percentage, ndigits=3)}% ({Second_Candidate_Votes})\n")
+print(f"{Third_Candidate} : {round(Third_Candidate_Percentage, ndigits=3)}% ({Third_Candidate_Votes})\n")
+print("---------------------\n")
+print(f"Winner:  {Winner}\n")
