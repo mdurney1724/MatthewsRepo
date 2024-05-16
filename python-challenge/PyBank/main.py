@@ -62,3 +62,12 @@ f"Greatest Decrease in profits: {Months_List[index2 +1]} (${Greatest_Profit_Decr
 # Export output to text file 
 with open(Budget_Output, "w") as txt_file: 
     txt_file.write(Output)
+
+# Print output
+print("Financial Analysis\n")
+print("---------------------\n")
+print(f"Total Months: {Months}\n")
+print(f"Total: ${Net}\n")
+print(f"Average Change: ${Average_Change:.2f}\n")
+print(f"Greatest Increase in profits: {Months_List[index1 +1]} (${Greatest_Profit_Increase})\n")
+print(f"Greatest Decrease in profits: {Months_List[index2 +1]} (${Greatest_Profit_Decrease})\n")
